@@ -392,6 +392,15 @@ section { padding: 80px 24px; }
 .offer-line { display: flex; align-items: flex-start; gap: 14px; font-size: 15px; color: #E8D8D0; line-height: 1.55; }
 .offer-check { color: var(--sage); font-family: 'Jost', sans-serif; font-size: 13px; flex-shrink: 0; margin-top: 2px; }
 .offer-hr { border: none; border-top: 1px solid rgba(255,255,255,0.09); margin: 24px 0; }
+.offer-price-old {
+  font-size: clamp(22px, 4vw, 32px);
+  font-weight: 300;
+  color: #5A4040;
+  line-height: 1;
+  margin-bottom: 6px;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
 .offer-price {
   font-size: clamp(40px, 8vw, 60px);
   font-weight: 300;
@@ -680,6 +689,7 @@ footer p {
       <div class="offer-line"><span class="offer-check">✓</span><span>Доступ навсегда — возвращайтесь в любой момент</span></div>
     </div>
     <hr class="offer-hr">
+    <div class="offer-price-old">3 990 ₽</div>
     <div class="offer-price">1 990 ₽</div>
     <p class="offer-price-note">Лекция + Сборник · доступ сразу после оплаты</p>
     <a href="https://payform.ru/ocbraJm/" class="btn btn-rose btn-full">Оплатить</a>
@@ -720,7 +730,7 @@ footer p {
 <!-- FOOTER CTA -->
 <div class="footer-cta">
   <h2 class="footer-cta-title">Начните сегодня —<br>уже <em>сегодня вечером</em> будет иначе</h2>
-  <a href="https://payform.ru/oaboXnc/" class="btn btn-rose">Купить за 1 990 ₽</a>
+  <a href="https://payform.ru/ocbraJm/" class="btn btn-rose">Купить за 1 990 ₽</a>
 </div>
 
 <footer>
